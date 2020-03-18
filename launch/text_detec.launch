@@ -1,0 +1,5 @@
+<launch>
+   <node pkg="text_detector" name="camera" type="video_feed.py"/>
+   <node pkg="text_detector" name="detector" type="detector.py"/>
+   <node pkg="text_detector" name="matching" type="matching.py"/>   
+</launch>
